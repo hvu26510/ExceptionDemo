@@ -18,6 +18,10 @@ namespace ExceptionDemo
             {
                 Console.WriteLine(e.Message);
             }
+            finally
+            {
+                //do some thing
+            }
             
 
             #region
